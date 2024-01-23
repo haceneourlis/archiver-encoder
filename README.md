@@ -4,12 +4,13 @@
 Ce projet se compose de trois dossiers. Le premier dossier comprend deux fichiers, `encode.c` et `decode.c`. Le fichier `encode.c` chiffre les fichiers selon un motif sécurisé, tandis que le fichier `decode.c` décrypte le fichier chiffré. Pour utiliser ces fonctionnalités, veuillez suivre les étapes suivantes :
 
 en bash: 
----------------------------
-gcc encodeur.c -o encodeur
+gcc encodeur.c -o encodeur  
+
 ./encodeur [argument]
+
 gcc decodeur.c -o decodeur
+
 ./decodeur [argument]
----------------------------
 
 NB : Une image (voir `figure_1`) explique comment les bits sont manipulés, offrant une compréhension rapide de l'algorithme implémenté.
 
